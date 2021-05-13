@@ -5,23 +5,58 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="tyyli.css">
 
-<header>
-  <h2>HockeyBalanceSuomi</h2>
+<meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Sticky Footer Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="tyyli.css">
+<script src="jsmain.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script
+   src="https://code.jquery.com/jquery-3.6.0.js"
+   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous">
+
+  
+  </script>
+
+
+<body>
+ 
+  <div class="sidenav">
+  
+    </div> 
+  <header>
+  <h2>HockeyBalance<br>Suomi</h2>
 </header>
 
 <div class="navbar">
-  <a href="#news">Tilastot</a>
-  <a href="galleria.html">Kuvagalleria</a>
-  <div class="dropdown">
-    <button class="dropbtn">Linkkilaatikko 
+
+  <a href="#news">Uutiset</a><div class="dropdown">
+
+  </div>
+  <a href="#news">Tilastot</a><div class="dropdown"> 
+ 
+    
+    
+    <button class="dropbtn">Linkit 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
       <a href="https://www.finhockey.fi">Suomen jääkiekkoliitto</a>
       <a href="http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi?sstsbseason=2020&sstsblevel=94&sstsbdistrict=&sstsbstatgroup=7896">Tulospalvelu</a>
-     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </div>
   </div> 
 </div>
@@ -33,22 +68,79 @@
 </nav>
 
   <article>
-    <h1>Täältä kiekkoaiheisia uutisia, tilastoja ja kuvia!</h1>
-    <p> HBS</p>
-<p>Kaikenlaista kiekkoiluun liittyvää!</p>
 
- <p>Mukavaa, että ole löytänyt saitille. Let's cook the puck!</p>
+    
+
+
+    <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideDown("slow");
+        });
+      });
+      </script>
+      <style> 
+      #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #6f706d;
+        border: solid 1px #c3c3c3;
+      }
+      
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+      </style>
+      </head>
+      <body>
+       <p>Tervetuloa seuraamaan sivustoa. Täältä löytyy kaikki koronasta kiekkoon.</p>
+
+       <div id="flip"><p>Klikkaa tästä tietoa koronalukemista:</p></div>
+       <div id="panel">
+         <button type="button" onclick="loadJSONDoc()">Paina nappia, paluu F5.</button></div>
+       
+     <br>
+     
+       <div id="tabledata"></div>
+       <br>
+       
+       <div id="content"></div>
+
+
+      <div id="flip"><p>Klikkaa tästä tietoa koronalukemista:</p></div>
+      <div id="panel">
+        <button type="button" onclick="loadJSONDoc()">Paina nappia, paluu F5.</button></div>
+      
+    <br>
+    
+      <div id="tabledata"></div>
+      <br>
+      
+      <div id="content"></div>
+     
+   
   </article>
 
+ <!-- Custom styles for this template -->
+ <link href="sticky-footer.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column h-100">
+  
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+<div class="container">
+  
+</div>
+</main>
 
-<footer>
-  <p>Minna Mikkola &copy;</p>
+<footer class="footer mt-auto py-3 bg-light">
+<div class="container">
+  <span class="text-muted"><p>Minna Mikkola &copy;</p></span>
+</div>
 </footer>
 
-<script
-   src="https://code.jquery.com/jquery-3.6.0.js"
-   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-   crossorigin="anonymous"></script>
+
 
 </body>
 

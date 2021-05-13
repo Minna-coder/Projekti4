@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
   
+  
   body {
     font-family: Arial, Helvetica, sans-serif;
   
@@ -14,6 +15,7 @@
     text-align: center;
     font-size: 35px;
     color: white;
+    font-style: italic;
   }
   
   /* Create two columns/boxes that floats next to each other */
@@ -122,4 +124,26 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
  
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+   
+
+  
